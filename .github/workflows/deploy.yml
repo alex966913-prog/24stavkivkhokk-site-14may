@@ -27,7 +27,7 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp.timeweb.ru
+          server: cv716749.tmweb.ru
           username: cv716749_stavkif
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
