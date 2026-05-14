@@ -30,5 +30,6 @@ jobs:
           server: 24stavkivkhokk.ru
           username: cv716749_stavkif
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
           local-dir: ./dist/
           server-dir: /public_html/
