@@ -27,12 +27,10 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: 24stavkivkhokk.ru
-          username: cv716749_stavkif
+          server: vh440.timeweb.ru
+          username: cv716749
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
+          protocol: ftp
           port: 21
-          security: loose
-          timeout: 60000
           local-dir: ./dist/
           server-dir: /public_html/
